@@ -1,0 +1,66 @@
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Kudvenkat .NET Core.csproj.AssemblyReference.cache
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Kudvenkat .NET Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Kudvenkat .NET Core.AssemblyInfoInputs.cache
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Kudvenkat .NET Core.AssemblyInfo.cs
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Kudvenkat .NET Core.csproj.CoreCompileInputs.cache
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Kudvenkat .NET Core.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Kudvenkat .NET Core.RazorAssemblyInfo.cache
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Kudvenkat .NET Core.RazorAssemblyInfo.cs
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Kudvenkat .NET Core.TagHelpers.input.cache
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Kudvenkat .NET Core.TagHelpers.output.cache
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Kudvenkat .NET Core.RazorCoreGenerate.cache
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create_Old.cshtml.g.cs
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Edit.cshtml.g.cs
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\EmployeeList.cshtml.g.cs
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Test\Test.cshtml.g.cs
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Kudvenkat .NET Core.RazorTargetAssemblyInfo.cache
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Kudvenkat .NET Core.RazorTargetAssemblyInfo.cs
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Kudvenkat .NET Core.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Kudvenkat .NET Core.pdb
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\Kudvenkat .NET Core.exe
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\Kudvenkat .NET Core.deps.json
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\Kudvenkat .NET Core.runtimeconfig.json
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\Kudvenkat .NET Core.runtimeconfig.dev.json
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\Kudvenkat .NET Core.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\Kudvenkat .NET Core.pdb
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\Kudvenkat .NET Core.Views.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\Kudvenkat .NET Core.Views.pdb
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Kudvenkat .NET Core.Views.pdb
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\staticwebassets\Kudvenkat .NET Core.StaticWebAssets.Manifest.cache
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\staticwebassets\Kudvenkat .NET Core.StaticWebAssets.Pack.cache
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.Kudvenkat .NET Core.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.Kudvenkat .NET Core.props
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.Kudvenkat .NET Core.props
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.Kudvenkat .NET Core.props
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Kudvenka.CAF4C5A2.Up2Date
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Kudvenkat .NET Core.genruntimeconfig.cache
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\NotFound.cshtml.g.cs
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\EmployeeNotFound.cshtml.g.cs
+C:\Users\himan\source\repos\Kudvenkat .NET Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs

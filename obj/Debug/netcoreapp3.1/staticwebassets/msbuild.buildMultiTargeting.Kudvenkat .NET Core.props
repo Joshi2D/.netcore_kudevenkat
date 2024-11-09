@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Kudvenkat .NET Core.props" />
+</Project>
