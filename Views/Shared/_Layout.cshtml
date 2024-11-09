@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <environment include="Development">
+        @* //---> this is another taghelper that runs piece of code based on env mentioned *@
+        <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+        <script src="~/lib/jquery/jquery.js"></script>
+        <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+    </environment>
+    <environment exclude="Development">
+        @* //---> we can mention include = "SIT, UAT, Prod" like so, but if we add one more evn later on then we have change it everywhere so better to use exclude *@
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only"
+              asp-fallback-test-property="position"
+              asp-fallback-test-value="absolute"
+              asp-suppress-fallback-integrity="true" />
+    </environment>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-sm bg-black navbar-dark">
+            <a class="navbar-brand" asp-action="GetEmployees" asp-controller="Home">
+                <img src="~/images/noimage.jpg" style="width:20px; height:20px" />
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a asp-action="GetEmployees" asp-controller="Home"  class="nav-link">List </a>
+                    </li>
+                    <li class="nav-item">
+                        <a asp-action="Create" asp-controller="Home" class="nav-link">Create</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div>
+            @RenderBody()
+        </div>
+        @if (IsSectionDefined("Scripts"))
+        {
+            @RenderSection("Scripts", required: true)
+        }
+    </div>
+
+</body>
+</html>

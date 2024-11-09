@@ -1,0 +1,48 @@
+﻿@model EmployeeLocationViewModel
+@{
+    // Layout = "~/Views/Shared/_Layout.cshtml"; ---> part will go to _ViewStart.cshtml
+    ViewBag.Title = "Employee Details";
+    var photoPath = "~/images/" + (Model.Employee.Photopath ?? "user(1).png");
+    var name = Model.Employee.Name;
+}
+
+@* <h1> this is sparta emp.name </h1>  *@
+@* <div> *@
+    @* <label>Name : </label> *@
+    @* <span>@Model.Name</span> @* //we can directly use like this but this way is not type safe and no intisence comes up to make it type safe and intelisence help we have to declare @Model Employee... *@ 
+     @* </br> *@
+    @* <label>Email : </label> *@
+    @* <span>@Model.Email</span> *@
+    @* </br> *@
+    @* <label>Department : </label> *@
+    @* <span>@Model.Department</span> *@
+    @* </br> *@
+    @* <label>Id : </label> *@
+    @* <span>@Model.Id</span> *@
+@* </div> *@
+
+
+<div class="row justify-content-center m-3">
+    <div class="col-sm-8">
+        <div class="card">
+            <div class="card-header">
+                <h1>@Model.Employee.Name</h1>
+            </div>
+
+            <div class="card-body text-center">
+                <img class="card-img-top" src= "@photoPath" asp-append-version=true style="width:200px; height:200px" />
+
+                <h4>Employee ID : @Model.Employee.Id</h4>
+                <h4>Email : @Model.Employee.Email</h4>
+                <h4>Department : @Model.Employee.Department</h4>
+
+            </div>
+            <div class="card-footer text-center">
+                <a asp-controller="Home" asp-action="GetEmployees" asp-route-id="null" class="btn btn-primary">Back</a>
+                <a asp-controller="Home" asp-action="edit" asp-route-id="@Model.Employee.Id"  class="btn btn-primary">Edit</a>
+                <a asp-controller="Home" asp-action="delete" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>
+

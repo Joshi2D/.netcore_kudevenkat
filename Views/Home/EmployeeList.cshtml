@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Employee>
+
+@{
+    // Layout = "~/Views/Shared/_Layout.cshtml"; ---> part will go to _ViewStart.cshtml
+    ViewBag.Title = "Employee List";
+    
+
+}
+@*     <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Email</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var emp in Model)
+            {
+                <tr>
+                <td>@emp.Id</td>
+                <td>@emp.Name</td>
+                <td>@emp.Department</td>
+                <td>@emp.Email</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+ *@
+
+<div class="card-deck">
+    @foreach (var employee in Model)
+    {
+        var photoPath = "~/images/" + (employee.Photopath ?? "man.png");
+        <div class="card m-3">
+            <div class="card-header">
+                <h3>@employee.Name</h3>
+            </div>
+            <img class="card-img-top" src="@photoPath" asp-append-version=true style="width:200px; height:200px" />
+            <div class="card-footer text-center">
+               @*<a href="/Home/Details/@employee.Id" class="btn btn-primary">View</a>*@
+               @* @Html.ActionLink("View","Details","Home", new{ Id = employee.Id}); //---> this html helper will provide a link but since we want a button and styling we can use @Url.Action*@ 
+               @* <a href=@Url.Action("Details","Home", new{ Id = employee.Id}); class="btn btn-primary">View</a> //---> this html helper old way of doing it *@
+                <a asp-controller ="Home" asp-action="Details" asp-route-id ="@employee.Id" class="btn btn-primary">View</a> @* //---> benefit of using tag helper is that it follows default path
+                  for example later on if we add pragim/controller/action : then we dont have to do anything in our code*@
+                <a asp-controller="Home" asp-action="edit" asp-route-id="@employee.Id" class="btn btn-primary">Edit</a>
+                <a href="#" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    }
+</div>

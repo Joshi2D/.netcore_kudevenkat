@@ -1,0 +1,23 @@
+﻿@model EmployeeLocationViewModel
+
+@{
+
+    //Layout = "~/Views/Shared/_Layout.cshtml"; ---> part will go to _ViewStart.cshtml
+    ViewBag.Title = "Index";
+
+}
+
+<h1> @Model.PageTitle </h1> 
+<div>
+    <label>Name : </label>
+    <span>@Model.Employee.Name</span> @* //we can directly use like this but this way is not type safe and no intisence comes up to make it type safe and intelisence help we have to declare @Model Employee... *@
+     </br>
+    <label>Email : </label>
+    <span>@Model.Employee.Email</span>
+    </br>
+    <label>Department : </label>
+    <span>@Model.Employee.Department</span>
+    </br>
+    <label>Id : </label>
+    <span>@Model.Employee.Id</span>
+</div>

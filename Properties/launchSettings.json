@@ -1,0 +1,29 @@
+﻿{
+  "iisSettings": { //---> settings used when using iis process server
+    "windowsAuthentication": false, 
+    "anonymousAuthentication": true, 
+    "iisExpress": {
+      "applicationUrl": "http://localhost:4285",
+      "sslPort": 44317
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production",
+        "Key": "This is from enivironment variable appsettings.json"
+
+      }
+    },
+    "Kudvenkat_.NET_Core": { //---> these settings are used when out of process is used i.e kestrel dotnet  process
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production"
+      }
+    }
+  }
+}
